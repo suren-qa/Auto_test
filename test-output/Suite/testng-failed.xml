@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.retialplantest.Logintest">
+        <methods>
+          <include name="logintest"/>
+          <include name="defaultintilization"/>
+        </methods>
+      </class> <!-- testcases.retialplantest.Logintest -->
+      <class name="testcases.retialplantest.Intialplantest">
+        <methods>
+          <include name="logintest"/>
+          <include name="defaultintilization"/>
+          <include name="intialnavi"/>
+        </methods>
+      </class> <!-- testcases.retialplantest.Intialplantest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
